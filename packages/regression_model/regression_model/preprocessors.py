@@ -24,3 +24,4 @@ class CategoricalImputer(BaseEstimator, TransformerMixin):
             X[feature] = X[feature].fillna('Missing')
 
         return X
+# juste teste commitement
